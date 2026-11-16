@@ -1,0 +1,19 @@
+{
+  "name": "LasPalmeras.Runtime",
+  "rootNamespace": "LasPalmeras",
+  "references": [
+    "UnityEngine.UI",
+    "Unity.InputSystem",
+    "Unity.XR.Management",
+    "Google.XR.Cardboard"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

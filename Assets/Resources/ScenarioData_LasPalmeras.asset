@@ -1,0 +1,249 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c76bdc93fb60dd44b27791eaab14b9b, type: 3}
+  m_Name: ScenarioData_LasPalmeras
+  m_EditorClassIdentifier: LasPalmeras.Runtime::LasPalmeras.ScenarioData
+  escenario: Escenario 07
+  titulo: Agencia Las Palmeras
+  bancoReceptor: "Banco Pac\xEDfico Insular"
+  bancoAtacado: BANCO ANDINO
+  fechas: "15 may 2015 \xB7 9 feb 2016"
+  historia: "El 15 de mayo de 2015 se abren cinco cuentas ficticias con US$500 cada
+    una. El 5 de febrero de 2016 llegan cerca de US$81 millones a cuatro cuentas;
+    ese d\xEDa se entrega a la sucursal una caja con 20 millones de pesos. Las c\xE1maras
+    no graban del 4 al 9. El 9 de febrero se ejecutan cinco transferencias por unos
+    US$58,2 millones entre las 10:24 y las 11:37."
+  cuentas: 5
+  depositoInicialUsd: 500
+  recibidoUsd: 81000000
+  retiradoUsd: 58158642
+  efectivoPesos: 20000000
+  horaRetiro: "10:24\u201311:37"
+  horaOrdenLeida: 09:11
+  cuentasQueRecibenFondos: 4
+  vulnerabilidades:
+  - "Verificaci\xF3n de identidad d\xE9bil (KYC)"
+  - Cuentas dormidas que reciben millones sin alerta
+  - "C\xE1maras sin grabar y retiros sin retenci\xF3n"
+  defensas:
+  - "Verificaci\xF3n de identidad y domicilio"
+  - Alerta por cuentas inactivas con montos grandes
+  - "Retenci\xF3n de fondos y monitoreo de CCTV"
+  fichas:
+  - id: 01
+    titular: "Eduardo P\xE1ez Linares"
+    documento: 45000000-3
+    domicilio: Av. Los Imaginarios 000, Dpto. 0
+    telefono: 999 999 999
+    ocupacion: Comerciante
+    ingresoMensualUsd: 900
+    depositoUsd: 500
+    cartaDevuelta: 1
+    tinte: {r: 0.35, g: 0.6, b: 0.9, a: 1}
+  - id: 02
+    titular: "Luciano Santill\xE1n Vera"
+    documento: 32147890-3
+    domicilio: Calle Sin Nombre s/n
+    telefono: 987 412 365
+    ocupacion: Comerciante
+    ingresoMensualUsd: 1100
+    depositoUsd: 500
+    cartaDevuelta: 1
+    tinte: {r: 0.9, g: 0.5, b: 0.55, a: 1}
+  - id: 03
+    titular: "Hern\xE1n Cabrera Ocampo"
+    documento: 20458831-7
+    domicilio: Pasaje Inexistente 77
+    telefono: 000 000 000
+    ocupacion: Armador naviero
+    ingresoMensualUsd: 45000
+    depositoUsd: 500
+    cartaDevuelta: 1
+    tinte: {r: 0.55, g: 0.85, b: 0.55, a: 1}
+  - id: 04
+    titular: Mauro Solano Quiroz
+    documento: 28811230-3
+    domicilio: Av. Fantasma 4040, Piso 9
+    telefono: 954 118 702
+    ocupacion: Comerciante
+    ingresoMensualUsd: 800
+    depositoUsd: 500
+    cartaDevuelta: 1
+    tinte: {r: 0.95, g: 0.8, b: 0.4, a: 1}
+  - id: 05
+    titular: "Ramiro Echeverr\xEDa Dall"
+    documento: 61903377-9
+    domicilio: Calle Los Cedros 45, Dpto. 3
+    telefono: 976 530 884
+    ocupacion: Comerciante
+    ingresoMensualUsd: 1000
+    depositoUsd: 500
+    cartaDevuelta: 0
+    tinte: {r: 0.75, g: 0.6, b: 0.95, a: 1}
+  domiciliosVerificados:
+  - Calle Los Cedros 45, Dpto. 3
+  - Av. Las Gaviotas 1280
+  - Jr. Mercaderes 230, Of. 4
+  - "Calle Las Orqu\xEDdeas 112"
+  - Av. Costa Verde 905, Piso 2
+  timeline:
+  - fecha: 15 may 2015
+    texto: "Se abren cinco cuentas en d\xF3lares con identidades ficticias y US$500
+      cada una. La demanda sostiene que eran cuentas ficticias."
+  - fecha: "jun\u2013ago 2015"
+    texto: "Cuatro de cinco cartas de bienvenida son devueltas como no entregables.
+      La asignaci\xF3n de esas cartas a los titulares del simulador es ficticia."
+  - fecha: "266 d\xEDas"
+    texto: "Las cuentas permanecen inactivas antes de recibir fondos; el intervalo
+      exacto se representa de forma simplificada en la simulaci\xF3n."
+  - fecha: "Vie 5 feb 2016 \xB7 ma\xF1ana"
+    texto: Llegan alrededor de US$81 millones a cuatro de las cinco cuentas.
+  - fecha: "Vie 5 feb 2016 \xB7 antes de 19:00"
+    texto: "Seg\xFAn la demanda, el centro de efectivo de Makati entrega 20 millones
+      de pesos a la sucursal Jupiter. El efectivo queda en una caja de cart\xF3n
+      para que William So Go la recoja; la hora exacta no se fija aqu\xED."
+  - fecha: "4\u20139 feb 2016"
+    texto: "La demanda alega que las c\xE1maras de la sucursal Jupiter no funcionaban
+      durante estos d\xEDas."
+  - fecha: "Dom 7 feb \xB7 06:54"
+    texto: "Seg\xFAn la demanda, el servidor SWIFT de RCBC fue desconectado. Volvi\xF3
+      a conectarse el martes 9 a las 09:11."
+  - fecha: "Lun 8 feb \xB7 17:05\u201317:12 (Bangladesh)"
+    texto: "Bangladesh Bank env\xEDa mensajes STOPPAY/solicitudes de detener pagos.
+      La demanda alega que el servidor receptor a\xFAn no estaba conectado para procesarlos."
+  - fecha: "Mar 9 feb \xB7 09:11"
+    texto: "RCBC vuelve a iniciar sesi\xF3n en el servidor SWIFT y los mensajes quedan
+      disponibles para el personal."
+  - fecha: "Mar 9 feb \xB7 10:24\u201311:37"
+    texto: "Se registran cinco transferencias por un total aproximado de US$58,2
+      millones. La primera ocurre a las 10:24; la \xFAltima, a las 11:37."
+  evidencias:
+  - id: FICHA_01
+    titulo: Ficha 01 revisada
+    texto: "La ficha 01 tiene documento, domicilio y tel\xE9fono que no resisten
+      una verificaci\xF3n."
+    vulnerabilidad: "KYC d\xE9bil"
+  - id: FICHA_02
+    titulo: Ficha 02 revisada
+    texto: "La ficha 02 usa un documento con d\xEDgito verificador err\xF3neo y un
+      domicilio que no existe."
+    vulnerabilidad: "KYC d\xE9bil"
+  - id: FICHA_03
+    titulo: Ficha 03 revisada
+    texto: La ficha 03 declara un ingreso de US$45.000 al mes y abre la cuenta con
+      solo US$500.
+    vulnerabilidad: "KYC d\xE9bil"
+  - id: FICHA_04
+    titulo: Ficha 04 revisada
+    texto: "La ficha 04 tiene documento inv\xE1lido, un domicilio que no existe y
+      su carta de bienvenida volvi\xF3 devuelta."
+    vulnerabilidad: "KYC d\xE9bil"
+  - id: FICHA_05
+    titulo: Ficha 05 revisada
+    texto: "La ficha 05 parece la m\xE1s limpia, pero comparte el mismo dep\xF3sito
+      de US$500 que las otras cuatro."
+    vulnerabilidad: "KYC d\xE9bil"
+  - id: CUENTAS_DORMIDAS
+    titulo: Cuentas dormidas
+    texto: "Cuatro cuentas sin movimiento durante nueve meses reciben US$81 millones
+      en un d\xEDa. El sistema no emite ninguna alerta."
+    vulnerabilidad: Sin alerta
+  - id: CAJA_CARTON
+    titulo: "La caja de cart\xF3n"
+    texto: "La demanda alega que el centro de efectivo de Makati entreg\xF3 20 millones
+      de pesos a la sucursal Jupiter antes de las 19:00. El efectivo qued\xF3 en
+      una caja de cart\xF3n para que un tercero la recogiera; la hora exacta no se
+      fija en el simulador."
+    vulnerabilidad: "Sin retenci\xF3n"
+  - id: CCTV_SIN_SENAL
+    titulo: "C\xE1maras sin grabar"
+    texto: "Las c\xE1maras de la agencia no graban nada del 4 al 9 de febrero. Nadie
+      lo nota ni lo reporta."
+    vulnerabilidad: CCTV apagado
+  - id: SWIFT_OFFLINE
+    titulo: "Registro de sesi\xF3n SWIFT"
+    texto: "La demanda alega que el servidor SWIFT de RCBC qued\xF3 desconectado
+      el 7 de febrero a las 06:54 y volvi\xF3 a conectarse el 9 a las 09:11. Bangladesh
+      Bank hab\xEDa enviado solicitudes STOPPAY el 8 de febrero."
+    vulnerabilidad: Continuidad y escalamiento
+  - id: RETIRO_1024
+    titulo: "Cinco transferencias \xB7 10:24\u201311:37"
+    texto: "La demanda describe cinco transferencias entre las 10:24 y las 11:37
+      del 9 de febrero, por un total de US$58.158.641,63. No fue un \xFAnico retiro
+      a las 10:24."
+    vulnerabilidad: "Sin retenci\xF3n"
+  - id: PANEL_SIN_REGLAS
+    titulo: "Panel de alertas vac\xEDo"
+    texto: "En la reconstrucci\xF3n, el panel de alertas de la agencia no tiene ninguna
+      regla activa para cuentas inactivas ni retenciones."
+    vulnerabilidad: Sin controles
+  controles:
+  - id: kyc
+    nombre: "Verificaci\xF3n de identidad y domicilio"
+    descripcion: "Valida documento, domicilio, tel\xE9fono y perfil, y rechaza las
+      cuentas que no pasan."
+    vulnerabilidad: "Verificaci\xF3n de identidad d\xE9bil (KYC)"
+    requisito: Revisa las fichas de la ventanilla y encuentra al menos 3 datos falsos.
+  - id: dormant
+    nombre: Alerta por cuentas inactivas con montos grandes
+    descripcion: Avisa cuando una cuenta sin movimiento recibe un monto fuera de
+      lo normal.
+    vulnerabilidad: Cuentas dormidas que reciben millones sin alerta
+    requisito: "Revisa el registro de cuentas en el terminal de la b\xF3veda."
+  - id: hold
+    nombre: "Retenci\xF3n de fondos y monitoreo de CCTV"
+    descripcion: "Retiene los fondos que disparan una alerta y obliga a las c\xE1maras
+      a grabar."
+    vulnerabilidad: "C\xE1maras sin grabar y retiros sin retenci\xF3n"
+    requisito: "Revisa las c\xE1maras de la sala de seguridad (4 al 9 de febrero)."
+  epilogo:
+  - "De los US$81 millones que llegaron a Las Palmeras se recuperaron unos US$15
+    millones; siguen perdidos unos US$66 millones. (Los US$20 millones pagados a
+    Sri Lanka s\xED se devolvieron.)"
+  - "El caso real tuvo investigaciones, procesos judiciales y sanciones posteriores.
+    Marta Vidal y los dem\xE1s empleados del BANCO ANDINO son personajes ficticios:
+    no representan a personas reales ni se les atribuyen condenas."
+  - "Como consecuencia posterior del caso, Filipinas ampli\xF3 en 2017 el alcance
+    de su legislaci\xF3n contra el lavado de activos para incluir casinos. Es una
+    evoluci\xF3n normativa posterior, no un control que existiera en febrero de 2016."
+  - "Pista para el c\xF3mplice interno del BANCO ANDINO: este escenario NO la contiene.
+    Ocurre fuera de tu banco y ninguna ficha revela al c\xF3mplice."
+  reglasEticas:
+  - "Solo defensa y solo simulaci\xF3n: los ataques existen \xFAnicamente dentro
+    de la app."
+  - "Solo datos inventados: nombres, documentos, cuentas y tel\xE9fonos son ficticios."
+  - "Entidades ficticias: BANCO ANDINO, Banco Pac\xEDfico Insular y Banco Corresponsal
+    Internacional."
+  - "Personas ficticias: ning\xFAn personaje se parece a docentes, autoridades ni
+    a las personas reales del caso."
+  - "La atribuci\xF3n del ataque a actores conocidos como Lazarus procede de evaluaciones
+    de autoridades externas; el juego no presenta esa atribuci\xF3n como una conclusi\xF3n
+    judicial sobre cada personaje."
+  creditos:
+  - "ANDES-SIM \xB7 Caso BANCO ANDINO: La transferencia fantasma (Semana 10)"
+  - "Escenario 07 \xB7 Agencia Las Palmeras \xB7 VR (Cardboard) y PC"
+  - 'Motor: Unity 6.5 (6000.5.2f1)'
+  - "Plugin: Google Cardboard XR Plugin 1.36.0 \xB7 Apache License 2.0 \xB7 Google
+    LLC"
+  - 'Paquetes de Unity: Input System, XR Plug-in Management, uGUI'
+  - "Arte 3D, texturas, shaders y audio: generados por c\xF3digo (procedurales).
+    Sin recursos de terceros."
+  - "Herramientas de IA usadas: Claude (Anthropic) para generar el c\xF3digo base.
+    El equipo debe revisarlo y declararlo en su ficha."
+  - "Fuentes: demanda civil del Bangladesh Bank contra RCBC (2019; alegaciones),
+    materiales p\xFAblicos de autoridades estadounidenses y legislaci\xF3n filipina
+    posterior."
+  fuentes:
+  - Denuncia penal del FBI contra Park Jin Hyok (2018)
+  - Demanda del Banco de Bangladesh contra RCBC (2019; alegaciones, no una sentencia)
+  - "Departamento de Justicia de EE. UU. (material p\xFAblico sobre el caso, 2018)"
+  - "Ley filipina RA 10927 (2017; evoluci\xF3n normativa posterior)"

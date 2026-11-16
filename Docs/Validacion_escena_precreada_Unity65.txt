@@ -1,0 +1,92 @@
+JSON OK: Packages/manifest.json
+Unity target OK: 6000.5.2f1
+Módulo VR legado ausente
+Módulo XR declarado
+GazePointer.cs: referencias point inexistentes eliminadas
+API Unity 6.5: ninguna llamada GetInstanceID() en Assets
+Mats.cs: clave de caché migrada a EntityId tipado
+Arrays exactos de StoryDirector y aritmética OK: US$58.158.641,63
+Funcionalidad presente: evidencia SWIFT_OFFLINE
+Funcionalidad presente: pestaña terminal SWIFT
+Funcionalidad presente: guía de voz TTS
+Funcionalidad presente: ambientes por zona
+Funcionalidad presente: HUD safe area
+Funcionalidad presente: paneles adaptados a cámara
+Funcionalidad presente: raycast VR sin asignación por frame
+Funcionalidad presente: precarga de ambientes
+Funcionalidad presente: build protegido tras reinicio de Input Handling
+Funcionalidad presente: entrega física separada de la retención
+Dependencia base OK: com.unity.inputsystem (1.20.1)
+Dependencia base OK: com.unity.xr.management (4.6.1)
+Dependencia base OK: com.unity.xr.legacyinputhelpers (3.0.1)
+Dependencia base OK: com.unity.xr.core-utils (2.6.0)
+uGUI Core 2.5.0 declarado para activar UnityEngine.UI
+Módulo integrado OK: com.unity.modules.uielements
+Módulo integrado OK: com.unity.modules.xr
+Módulo integrado OK: com.unity.modules.subsystems
+Módulo integrado OK: com.unity.modules.ui
+Módulo integrado OK: com.unity.modules.audio
+Módulo integrado OK: com.unity.modules.imgui
+Módulo integrado OK: com.unity.modules.physics
+Módulo integrado OK: com.unity.modules.physics2d
+Lockfile habilitado
+Dependencias del Cardboard embebido alineadas
+Assembly runtime referencia uGUI, Input System, XR Management y Cardboard
+Import uGUI correcto: Assets/Scripts/Interaction/UiButton3D.cs
+Import uGUI correcto: Assets/Scripts/UI/UIManager.cs
+Import uGUI correcto: Assets/Scripts/UI/WorldPanel.cs
+Launcher descarga tarballs + verifica SHA-1 + compila en batch antes del Editor gráfico
+Validador batchmode usa el preflight que compila UI Image/Text + InputActionAsset + XR/Cardboard
+Build runner PowerShell descarga/resuelve paquetes y valida assemblies antes del build
+Build runner Bash valida assemblies antes del build
+Directorio de tarballs local documentado
+Escena precreada válida: GUID, componente GameBootstrap y Build Settings coinciden
+ProjectBootstrap valida/abre la escena guardada; no crea escenas aditivas
+CompileValidation valida el asmdef fuente, el componente de escena y Build Settings
+Versión del script OK: Tools/Instalar_Unity.ps1
+Versión del script OK: Tools/instalar_unity.sh
+Versión del script OK: Tools/Compilar.ps1
+Versión del script OK: Tools/compilar.sh
+C# delimiters OK: Assets/Editor/AndroidGradlePostprocess.cs
+C# delimiters OK: Assets/Editor/BuildScripts.cs
+C# delimiters OK: Assets/Editor/CompileValidation.cs
+C# delimiters OK: Assets/Editor/ProjectBootstrap.cs
+C# delimiters OK: Assets/Editor/XRSetup.cs
+C# delimiters OK: Assets/Scripts/Audio/AudioGuide.cs
+C# delimiters OK: Assets/Scripts/Audio/AudioManager.cs
+C# delimiters OK: Assets/Scripts/Audio/Synth.cs
+C# delimiters OK: Assets/Scripts/Core/Bootstrap.cs
+C# delimiters OK: Assets/Scripts/Core/GameBootstrap.cs
+C# delimiters OK: Assets/Scripts/Core/GameInput.cs
+C# delimiters OK: Assets/Scripts/Core/GameManager.cs
+C# delimiters OK: Assets/Scripts/Core/ScenarioData.cs
+C# delimiters OK: Assets/Scripts/Core/StoryDirector.cs
+C# delimiters OK: Assets/Scripts/Gameplay/CctvFeed.cs
+C# delimiters OK: Assets/Scripts/Gameplay/DormantAlert.cs
+C# delimiters OK: Assets/Scripts/Gameplay/KycChecker.cs
+C# delimiters OK: Assets/Scripts/Gameplay/WithdrawalLog.cs
+C# delimiters OK: Assets/Scripts/Interaction/DefenseControl.cs
+C# delimiters OK: Assets/Scripts/Interaction/EvidenceItem.cs
+C# delimiters OK: Assets/Scripts/Interaction/FichaItem.cs
+C# delimiters OK: Assets/Scripts/Interaction/Interactable.cs
+C# delimiters OK: Assets/Scripts/Interaction/PortalRing.cs
+C# delimiters OK: Assets/Scripts/Interaction/TeleportPoint.cs
+C# delimiters OK: Assets/Scripts/Interaction/UiButton3D.cs
+C# delimiters OK: Assets/Scripts/Player/GazePointer.cs
+C# delimiters OK: Assets/Scripts/Player/PlayerRig.cs
+C# delimiters OK: Assets/Scripts/Player/ScreenFader.cs
+C# delimiters OK: Assets/Scripts/Player/VrMode.cs
+C# delimiters OK: Assets/Scripts/UI/UIManager.cs
+C# delimiters OK: Assets/Scripts/UI/WorldPanel.cs
+C# delimiters OK: Assets/Scripts/World/AgencyBuilder.cs
+C# delimiters OK: Assets/Scripts/World/AssistantOrb.cs
+C# delimiters OK: Assets/Scripts/World/Billboard.cs
+C# delimiters OK: Assets/Scripts/World/Mats.cs
+C# delimiters OK: Assets/Scripts/World/Npc.cs
+C# delimiters OK: Assets/Scripts/World/Procedural.cs
+C# delimiters OK: Assets/Scripts/World/Txt.cs
+C# delimiters OK: Assets/Scripts/World/VaultDoor.cs
+Archivos C# bajo Assets: 39
+
+Resultado: comprobaciones estáticas básicas superadas.
+Nota: esto NO compila C# ni sustituye la apertura/build en Unity.

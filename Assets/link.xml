@@ -1,0 +1,7 @@
+<!-- Evita que el stripping de IL2CPP elimine tipos que se usan por reflexión o desde el plugin Cardboard. -->
+<linker>
+  <assembly fullname="Google.XR.Cardboard" preserve="all"/>
+  <assembly fullname="Unity.InputSystem">
+    <type fullname="UnityEngine.InputSystem.XR.TrackedPoseDriver" preserve="all"/>
+  </assembly>
+</linker>
